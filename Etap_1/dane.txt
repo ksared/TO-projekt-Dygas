@@ -1,0 +1,9 @@
+Dygas Bartosz s092598@student.tu.kielce.pl 1ID21A
+
+Temat: Wzorce projektowe dotyczące mapowania obiektowo - relacyjnego
+Technologie: Java, Hibernate
+Harmonogram: 09.04 - 23.04 - częśc teoretyczna - omówienie wzorców dotyczących mapowania obiektowo - relacyjnego.
+23.04 - 07.05 - narzędzie służące do kodu źródłowego zgodnego z wzorcami - generowanie kodu na podstawie plików XML.
+07.05 - 21.05 - Rozszerzenie aplikacji do generowania kodu na podstawie plików JSON oraz adnotacji Javy.
+Temat projektu "Programowanie systemów rozproszonych" - na razie brak
+Temat pracy inżynierskiej - "Moduł prezentacji i organizacji ścieżki kształcenia w zakresie przedmiotów wybieralnych"
