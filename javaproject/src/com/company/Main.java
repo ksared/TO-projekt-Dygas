@@ -14,10 +14,16 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
+
+        /*
         ExampleForeignKey exampleForeignKey = new ExampleForeignKey();
         //exampleForeignKey.makeExample();
         exampleForeignKey.findNaprawa();
         exampleForeignKey.findSamochod();
+        */
+
+        ExampleTableMapping exampleTableMapping = new ExampleTableMapping();
+        exampleTableMapping.makeExample();
 
 
     }
