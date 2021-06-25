@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #10133c;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE">
+         <tabs>
+            <Tab text="Polskie słowa">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TableView fx:id="polishTableView" layoutX="14.0" layoutY="9.0" prefHeight="351.0" prefWidth="411.0">
+                           <columns>
+                              <TableColumn fx:id="polishWordCol" prefWidth="134.66668319702148" text="Słowo" />
+                              <TableColumn fx:id="polishTranslationsCol" minWidth="0.0" prefWidth="274.6666615804036" text="Tłumaczenia" />
+                           </columns>
+                        </TableView>
+                        <Button layoutX="486.0" layoutY="65.0" mnemonicParsing="false" onAction="#polishSearchClick" text="Szukaj" />
+                        <TextField fx:id="polishSearchTextField" layoutX="437.0" layoutY="28.0" />
+                        <Button layoutX="487.0" layoutY="135.0" mnemonicParsing="false" onAction="#polishDodajClick" text="Dodaj" />
+                        <Button layoutX="486.0" layoutY="172.0" mnemonicParsing="false" onAction="#polishEdytujClick" text="Edytuj" />
+                        <Button layoutX="489.0" layoutY="211.0" mnemonicParsing="false" onAction="#polishUsuńClick" text="Usuń" />
+                        <Button layoutX="486.0" layoutY="304.0" mnemonicParsing="false" onAction="#polishWsteczClick" text="Wstecz" />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab text="Angielskie słowa">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TableView fx:id="englishTableView" layoutX="14.0" layoutY="9.0" prefHeight="351.0" prefWidth="411.0">
+                           <columns>
+                              <TableColumn fx:id="englishWordCol" prefWidth="134.66668319702148" text="Słowo" />
+                              <TableColumn fx:id="englishTranslationsCol" minWidth="0.0" prefWidth="274.6666615804036" text="Tłumaczenia" />
+                           </columns>
+                        </TableView>
+                        <Button layoutX="486.0" layoutY="65.0" mnemonicParsing="false" onAction="#englishSearchClick" text="Szukaj" />
+                        <TextField fx:id="englishSearchTextField" layoutX="437.0" layoutY="28.0" />
+                        <Button layoutX="487.0" layoutY="135.0" mnemonicParsing="false" onAction="#englishDodajClick" text="Dodaj" />
+                        <Button layoutX="486.0" layoutY="172.0" mnemonicParsing="false" onAction="#englishEdytujClick" text="Edytuj" />
+                        <Button layoutX="489.0" layoutY="211.0" mnemonicParsing="false" onAction="#englishUsuńClick" text="Usuń" />
+                        <Button layoutX="486.0" layoutY="304.0" mnemonicParsing="false" onAction="#englishWsteczClick" text="Wstecz" />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+         </tabs>
+      </TabPane>
+   </children>
+</Pane>
